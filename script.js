@@ -1,4 +1,4 @@
-// Save location to localStorage and update the location on the current page
+// Save location to localStorage
 function saveLocation() {
     const location = document.getElementById('location').value;
     if (location) {
@@ -9,7 +9,7 @@ function saveLocation() {
     }
 }
 
-// Update the location display on pages
+// Update location display on pages where needed
 function updateLocation() {
     const location = localStorage.getItem('userLocation');
     if (location) {
