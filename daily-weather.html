@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DisasterGuard - Daily Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>DisasterGuard</h1>
+        <nav>
+            <ul>
+                <li><a href="daily-weather.html">Daily Weather</a></li>
+                <li><a href="disaster-management.html">Disaster Management</a></li>
+                <li><a href="weather-alerts.html">Weather Alerts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="daily-weather">
+            <h2>Daily Weather</h2>
+            <form id="location-form">
+                <label for="location">Enter your location:</label>
+                <input type="text" id="location" name="location" required>
+                <button type="button" onclick="saveLocation()">Save Location</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
